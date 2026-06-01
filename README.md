@@ -36,7 +36,7 @@ Terraform
 
 ## 📁 Project Structure
 
-
+```
 terraform-aws-ec2/
 ├── main.tf            # Main infrastructure definition
 ├── variables.tf       # Input variables
@@ -44,22 +44,23 @@ terraform-aws-ec2/
 ├── terraform.tfvars   # Variable values
 ├── .gitignore         # Ignored files (state, cache)
 └── README.md
-
+```
 
 
 
 ## ⚙️ Prerequisites
 
 Before running this project, make sure you have:
-
+```
 * Terraform >= 1.0
 * AWS CLI installed
 * AWS account with access keys
 * Configured credentials:
-
-
+```
+Command
+```
 aws configure
-
+```
 
 
 
@@ -67,42 +68,42 @@ aws configure
 
 ### 1. Initialize Terraform
 
-
+```
 terraform init
 
-
+```
 
 
 ### 2. Format code
 
-
+```
 terraform fmt
-
+```
 
 
 
 ### 3. Validate configuration
 
-
+```
 terraform validate
-
+```
 
 
 
 ### 4. Preview changes
 
-
+```
 terraform plan
 
-
+```
 
 
 ### 5. Deploy infrastructure
 
-
+```
 terraform apply
 
-
+```
 Type `yes` when prompted.
 
 
@@ -111,9 +112,9 @@ Type `yes` when prompted.
 
 After deployment:
 
-
+```
 terraform output public_ip
-
+```
 
 Or check AWS Console.
 
@@ -121,9 +122,9 @@ Or check AWS Console.
 
 ### 7. Destroy infrastructure (cleanup)
 
-
+```
 terraform destroy
-
+```
 
 
 
@@ -162,12 +163,12 @@ terraform destroy
 **DevOps Learning Project**
 
 Built for practicing:
-
+```
 * Linux
 * AWS
 * Terraform
 * DevOps fundamentals
-
+```
 
 
 ## ⭐ If you like this project
