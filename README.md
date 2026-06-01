@@ -20,7 +20,7 @@ It is designed as a **DevOps learning project** to showcase Terraform fundamenta
 
 ## 🏗️ Architecture Overview
 
-
+```
 Terraform
    │
    ├── AWS Provider
@@ -32,7 +32,7 @@ Terraform
            └── Public IP Output
 
 
-
+```
 
 ## 📁 Project Structure
 
